@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" >
+	<meta name="viewport" conent="content=device-width, initial-scale=1.0" >
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styling.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">Arabic<span>Zone</span></a>
+		<div class="menuToggle" onclick="toggleMenu()"></div>
+		<ul class="navigation">
+			<li><a class="underline" href="#banner" onclick="toggleMenu()">Home</a></li>
+			<li><a href="#about" onclick="toggleMenu()">Materials</a></li>
+			<li><a href="#menu" onclick="toggleMenu()">Find Teacher</a></li>
+			<li><a href="#expert" onclick="toggleMenu()">Contact</a></li>
+			<li><a href="#testimonials" onclick="toggleMenu()">SIGNUP</a></li>
+			<li><a href="#contact" onclick="toggleMenu()">LOGIN</a></li>
+		</ul>
+	</header>
+	<hr>
+	<section class="section1">
+		<h1>Every thing you need to </h1><h1 style="padding-top:2%;">learn Arabic</h1>
+		<br>
+		<h2>Speak to natives using fusha(MSA) and/or dailects.</h2>
+		<br>
+		<button class="button1">Get Started!</button>
+	</section>
+	<secton>
+		<div class="left">
+		</div>
+		<div class="right">
+		</div>
+	</secton>
+	<section class="section2">
+		<center>
+			<h1>Some Of Our Teachers</h1>
+			<div class="rainbow">
+			    <img src="teacher.jpg">
+			    <h5>RAMY</h5>
+			    <p>
+			    	My name is Ramy, I am 26 years old, I am graduated from Cambridge University.
+			    	My name is Ramy, I am 26 years old, I am graduated from Cambridge University.
+			    	My name is Ramy, I am 26 years old, I am graduated from Cambridge University.
+			    	My name is Ramy, I am 26 years old
+			    </p>
+		    </div>
+		    <div class="rainbow">
+			    <img src="teacher1.jpg">
+			    <h5>NANCY</h5>
+			    <p>
+			    	My name is Ramy, I am 26 years old, I am graduated from Cambridge University.
+			    	My name is Ramy, I am 26 years old, I am graduated from Cambridge University.
+			    	My name is Ramy, I am 26 years old, I am graduated from Cambridge University.
+			    	My name is Ramy, I am 26 years old
+			    </p>
+		    </div>
+		    <div class="rainbow">
+			    <img src="teacher2.jpg">
+			    <h5>JOHN</h5>
+			    <p>
+			    	My name is Ramy, I am 26 years old, I am graduated from Cambridge University.
+			    	My name is Ramy, I am 26 years old, I am graduated from Cambridge University.
+			    	My name is Ramy, I am 26 years old, I am graduated from Cambridge University.
+			    	My name is Ramy, I am 26 years old
+			    </p>
+		    </div>
+		</center>
+	</section>
+
+	<section class="section3">
+		<div class="row">
+			<h1>Why Arabic Zone ?</h1>
+			<ul>
+  				<li><i class="fa fa-paper-plane-o" aria-hidden="true"></i>&ensp; <h2 class="head">Customise lessons</h2><p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p></li>
+  				<li><i class="fa fa-desktop" aria-hidden="true"></i>&ensp; <h2 class="head">Suitable Marerials</h2><p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p></li>
+  				<li><i class="fa fa-star-o" aria-hidden="true"></i>&ensp; <h2 class="head">We got you baek</h2><p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p></li>
+			</ul>
+		</div>
+		<div class="row">
+			<img src="person.png">
+		</div>
+
+
+	</section>
+
+	<section class="section4">
+		<h1>"Want to become a teacher"</h1>
+		<br>
+		<h2>Work in your oun free time ,setup your own schedule and price.</h2>
+		<br>
+		<button class="button4">Apply Now</button>
+	</section>
+
+
+	<section class="black">
+		
+		<div class="menuToggle" onclick="toggleMenu()"></div>
+		<ul class="navigation">
+			<li><a href="#banner" onclick="toggleMenu()">Home</a></li>
+			<li><a href="#about" onclick="toggleMenu()">Materials</a></li>
+			<li><a href="#menu" onclick="toggleMenu()">Find Teacher</a></li>
+		</ul>
+	    </div>
+	    <div class="menuToggle" onclick="toggleMenu()"></div>
+		<ul class="navigation">
+			<li><a href="#expert" onclick="toggleMenu()">Contact</a></li>
+			<li><a href="#testimonials" onclick="toggleMenu()">SIGNUP</a></li>
+			<li><a href="#contact" onclick="toggleMenu()">LOGIN</a></li>
+		</ul>
+	    </div>
+	    <footer>
+		
+		© Arabic Zone 2020. All Rights Reserved.
+	</footer>
+	</section>
+
+	
+
+
+
+
+	<script type="text/javascript">
+		window.addEventListener('scroll', function(){
+			const header = document.querySelector('header');
+			header.classList.toggle("sticky", window.scrollY >0);
+		});
+
+		function toggleMenu(){
+			const menuToggle = document.querySelector('.menuToggle');
+			const navigation = document.querySelector('.navigation');
+			menuToggle.classList.toggle('active');
+			navigation.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
